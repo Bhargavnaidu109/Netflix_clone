@@ -1,0 +1,147 @@
+@media screen and (max-width: 960px) {
+    h1{
+        font-size: 2rem;
+    }
+
+    .container{
+        margin-inline: 80px;
+    }
+
+    .poster {
+        padding-left: 50px;
+    }
+
+    .hero-section{
+        gap: 10px;
+    }
+
+    .hero-section h1{
+        font-size: 2.5rem;
+    }
+
+    .company-logo img{
+        width: 100px;
+    }
+
+    .feature-text p{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .faq-area p{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .large-btn{
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .poster{
+        margin-inline: 30px;
+    }
+
+    .feature-area {
+        margin-block: 20px;
+    }
+
+    .news-letter {
+        flex-direction: column;
+    }
+
+    #email-input {
+        flex-basis: 100%;
+    }
+
+    .menu {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .container{
+        padding-inline: 20px;
+    }
+
+    .tag-line{  
+        font-size: 1.1rem;
+    }
+
+    .large-btn{
+        font-size: 1.2rem;
+        padding: 5px 0px;
+    }
+
+    #email-input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container{
+        margin-inline: 20px;
+    }
+
+    .feature-area{
+        flex-direction: column;
+        gap: 30px;
+        margin-block: 30px;
+    }
+
+    .feature-text {
+        text-align: start;
+        width: 100%;
+    }
+
+    .feature-img {
+        width: 100%;
+    }
+
+    .faq-area p {
+        font-size: 1.1rem;
+    }
+
+    #email-input {
+        width: 100%;
+    }
+
+    .poster {
+        padding-left: 20px;
+        margin-inline: 30px;
+        padding-block: 70px;
+    }
+}
+
+@media screen and (max-width: 465px) {  
+    .header-section{
+        margin-bottom: 20px;
+    }
+
+    .hero-section {
+        gap: 15px;
+    }
+
+    .header{
+        margin-inline: 20px;
+    }
+
+    .poster{
+        margin-inline: 20px;
+    }
+
+    .footer-area{
+        flex-direction: column;
+    }
+
+    .link-column{
+        width: 100%;
+    }
+
+    .faq-area p{
+        font-size: 1rem;
+    }
+
+}
